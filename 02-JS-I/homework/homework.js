@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === 4.5;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -68,42 +68,60 @@ function divide(x, y) {
   
 }
 
-function sonIguales(x, y) {if (x = y) {return true}
-return false
-  // Devuelve "true" si "x" e "y" son iguales
+function sonIguales(x, y) {
+  if (x == y) {return true}
+ else
+{return false}
+   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
   
 }
 
-function tienenMismaLongitud(str1, str2) {
-  // Devuelve "true" si las dos strings tienen la misma longitud
+function tienenMismaLongitud(str1, str2) 
+    // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  {
+    if (str1.length == str2.length){return true} 
+    
+    else
+     {return false}
   
 }
 
-function menosQueNoventa(num) {
+function menosQueNoventa(num) 
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: 
+  {
+    if (num < 90) {return true} 
+  else
+  {return false}
   
 }
 
-function mayorQueCincuenta(num) {
+// function menosQueNoventa(num)
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
   
-}
 
-function obtenerResto(x, y) {
+
+function obtenerResto(x, y)
+ {
+   var resto = x % y;
+    return resto
+
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   
 }
 
 function esPar(num) {
+  if (num % 2 == 0)
+   {return true}
+    return false
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -111,50 +129,62 @@ function esPar(num) {
 }
 
 function esImpar(num) {
+  if (num % 2 == 1)
+   {return true} 
+   return false
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
   
 }
 
-function elevarAlCuadrado(num) {
+function elevarAlCuadrado(num) 
+{return Math.pow(num, 2)
+
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
   
 }
 
-function elevarAlCubo(num) {
+function elevarAlCubo(num) {return Math.pow(num,3)
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   
 }
 
-function elevar(num, exponent) {
+function elevar(num, exponent) {return Math.pow(num,exponent)
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   
 }
 
-function redondearNumero(num) {
+function redondearNumero(num) {Math.round(num)
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   
 }
 
-function redondearHaciaArriba(num) {
+function redondearHaciaArriba(num) {Math.ceil(num)
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   
 }
 
-function numeroRandom() {
+function numeroRandom() {console.log(Math.random());
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   
 }
 
 function esPositivo(numero) {
+  if (numero  >0){
+    return "Es positivo"
+  }
+  else if (numero <0){
+    return "Es negativo"
+  }
+  else {return false}
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
@@ -166,6 +196,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  let nuevaString = str + "!"
 }
 
 function combinarNombres(nombre, apellido) {
