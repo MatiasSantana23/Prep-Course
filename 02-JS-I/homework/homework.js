@@ -1,13 +1,21 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
+<<<<<<< HEAD
 const nuevaString = "hola";
+=======
+const nuevaString = 'hola';
+>>>>>>> c950690c540fc41bcdb34bb30a99d32fbfa7b265
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 10;
 
 // Crea una variable booleana:
+<<<<<<< HEAD
 const nuevoBool = true;
+=======
+const nuevoBool = false;
+>>>>>>> c950690c540fc41bcdb34bb30a99d32fbfa7b265
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -16,7 +24,11 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
+<<<<<<< HEAD
 const nuevoModulo = ((21 % 5 )== 1);
+=======
+const nuevoModulo = 21 % 5 === 1;
+>>>>>>> c950690c540fc41bcdb34bb30a99d32fbfa7b265
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -27,8 +39,12 @@ const nuevoModulo = ((21 % 5 )== 1);
 
 function devolverString(str) {return str
   // "Return" la string provista: str
+<<<<<<< HEAD
   // Tu código:no cambies los nombres de las funciones
 
+=======
+  // Tu código: 
+>>>>>>> c950690c540fc41bcdb34bb30a99d32fbfa7b265
   
 }
 

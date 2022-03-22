@@ -46,7 +46,7 @@ Es un editor de texto liviano, que cuenta con una serie de plugins para adaptarl
 
 Es multiplataforma, por lo que se puede instalar tanto en Windows, como Linux y OS X.
 
-Para instalarlo, realizaremos los siguientes pasos:
+Para instalarlo, realizaremos los siguientes pasos: Esto es mi edición
 
 #### En Windows o en OS X
 
